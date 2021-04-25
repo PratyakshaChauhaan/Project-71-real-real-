@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St.Xavier's School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries on school@gmail.com ***
+        </marquee>
+    </div>
+    <iframe id="video" width="775" height="375" src="https://www.youtube.com/embed/By3qZ5-wLGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg">
+                    <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was build in 1980</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was build in 1982</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="img1.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+            <h2 class="text-capitalize ">What's New</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>School's library</h4>
+                <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2015/11/220816_Libraries.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Libraries support learning within the pedagogic goals of the school. All the MRIS schools house a vast collection of books for students to read and develop a passion for reading, also inculcating in them the critical literacy. The institutions have a well stocked, ERP functional library to support the rich curriculum of all the classes. The libraries also house Kindle Digital Books, thus providing a quick access to the books (of any title; anytime) to the students.</p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>School's basketball court</h4>
+                <img src="https://mris.edu.in/wp-content/uploads/2020/06/Untitled-design-7.png" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">At MRIS-51, Gurugram, we believe that Sports help our students to learn essential life skills that they will require in life later such as teamwork and cooperation. From learning how to work on science projects as a team to having the self-confidence to dive into a complex engineering project, sports help our students be the best they can be by inculcating various soft skills. It enhances the self-esteem and self-confidence of a child.
+
+Physical activity stimulates growth and leads to improved physical and emotional health. Engaging in sports activities each week helps improve students’ focus as well as help them lead happier and healthier lives.We focus on children’s mental and emotional health as well. While the body exercises, the brain releases endorphins. From a biological standpoint alone, students who are physically active are happier and have a constructive outlet through which to relieve stress. The school promotes physical activities right from Early Years. The school runs its after-school sports program as well.
+                </p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize"> Our Alumni </h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#school_alumn1"> <img src="https://media.nojoto.com/content/media/271754/2019/04/profile/3a35f5b1331cc2f6396d01437ff0a884_271754/default.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Ayush Verma </p>
+        </div>
+        <div class="modal fade" id="school_alumn1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Ayush Verma</h4>
+                    </div>
+                    <div class="modal-body"> <img src="https://media.nojoto.com/content/media/271754/2019/04/profile/3a35f5b1331cc2f6396d01437ff0a884_271754/default.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Class of 2013-14 is a marketing executive with Zomato . He interacted with the Commerce and Humanities students and enlightened them on how online retail is the new buzzword and the skills one must equip oneself with to be a cut above the rest.<br> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#school_alumn2"> <img src="https://media-exp1.licdn.com/dms/image/C5103AQGqPpukX0ficw/profile-displayphoto-shrink_200_200/0/1575719732184?e=1622073600&v=beta&t=F74ydwWd5TcAM_piZKZMv3_gyGgjaIFAAcWLIp1aAcY" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Ria Nuhani </p>
+        </div>
+        <div class="modal fade" id="school_alumn2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Ria Nuhani</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5103AQGqPpukX0ficw/profile-displayphoto-shrink_200_200/0/1575719732184?e=1619049600&v=beta&t=BpCuSndyNJrqbv8lNocaeLy9_liiKEGQyDFYFUQGH8A" class="img-responsive img_modal">
+                        <p class="p_modal">Class of 2012-13, a practicing Chartered Accountant interacted with the commerce students about this very sought after field. Investment banking,portfolio management and stocks and funds were animatedly discussed during this interaction.<br> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#school_alumn3"> <img src="https://pbs.twimg.com/profile_images/1353312748969418753/o7R5X575_400x400.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Supraja Venkat </p>
+        </div>
+        <div class="modal fade" id="school_alumn3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Supraja Venkat</h4>
+                    </div>
+                    <div class="modal-body"> <img src="https://pbs.twimg.com/profile_images/1353312748969418753/o7R5X575_400x400.jpg " height="300">
+                        <p class="p_modal">Class of 2014-15, is pursuing Law at the Amity Law school. She addressed students of the Humanities and Commerce stream on how to prepare for various Law entrance Examinations in our country,the cutoffs,various specializations and how data analytics is slowly creeping into the field of law so as to enable a perfect amalgamation of Law and Technology. Criminal and corporate law were a hot topic of discussion amongst the students.<br> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#school_alumn4"> <img src="https://media-exp1.licdn.com/dms/image/C5103AQG8HtH63ufyMw/profile-displayphoto-shrink_200_200/0/1572583589212?e=1622073600&v=beta&t=giTAWb8amSQgGmAdQ-MGNNPERpWziBfYzWDoCOkkQZM" class="img-responsive">
+            <hr>
+            <p class="text-primary"> ashmita ghosh </p>
+        </div>
+        <div class="modal fade" id="school_alumn4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">ashmita ghosh</h4>
+                    </div>
+                    <div class="modal-body"> <img src="https://media-exp1.licdn.com/dms/image/C5103AQG8HtH63ufyMw/profile-displayphoto-shrink_200_200/0/1572583589212?e=1622073600&v=beta&t=giTAWb8amSQgGmAdQ-MGNNPERpWziBfYzWDoCOkkQZM" height="300">
+                        <p class="p_modal">class of 2017-18, a brilliant psychologist in the making is pursuing an applied psychology undergraduate degree from the University of Dakota. She spoke to the students on applications abroad,top universities for psychology degrees and research facilities and oppurtunities that one can benefit from at American Universities.<br> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize ">Contact Us</h2>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56142.458934823335!2d77.060494!3d28.422163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc6a182a1ac94b76!2sManav%20Rachna%20International%20School!5e0!3m2!1sen!2sin!4v1613927887858!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            <img src="https://mris.edu.in/wp-content/uploads/2019/11/IMG_5256.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal Name: </h3>
+            <h4>Ms.alpana baveja </h4>
+            <div class="contact_1">
+                <a href="mailto:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info.mris51@mris.edu.in</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;95600-63999</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
